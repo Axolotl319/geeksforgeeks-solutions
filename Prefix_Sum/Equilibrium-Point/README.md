@@ -1,0 +1,21 @@
+## [Equilibrium Point](https://www.geeksforgeeks.org/batch/gfg-160-problems/track/prefix-sum-gfg-160/problem/equilibrium-point-1587115620)
+
+**Difficulty:** Easy  
+**Topics:** Prefix Sum, Arrays  
+
+**Problem Description:**
+
+<p><span style="font-size: 14pt;">Given an array of integers<strong> arr[]</strong>,<strong> </strong>the task is to find the first equilibrium point&nbsp;in the array.</span></p>
+<p><span style="font-size: 14pt;">The equilibrium point in an array is an index (0-based indexing) such that the sum of all elements before<strong>&nbsp;</strong>that index is the&nbsp;same&nbsp;as the&nbsp;sum<strong>&nbsp;</strong>of elements&nbsp;after<strong>&nbsp;</strong>it.&nbsp;</span><span style="font-size: 14pt;">Return -1 if no such point exists.&nbsp;</span></p>
+<p><span style="font-size: 14pt;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>arr[] = [1, 2, 0, 3]<br><strong>Output: </strong>2<strong> 
+Explanation: </strong></span><span style="font-size: 18.6667px;">The sum of left of index 2 is 1 + 2 = 3 and sum on right of index 2 is 3.</span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>arr[] = [1, 1, 1, 1]<br><strong>Output: </strong>-1<strong>
+Explanation: </strong>There is no equilibrium index in the array.<br></span></pre>
+<pre style="text-wrap: wrap; color: #222222; background-color: #ffffff;"><span style="font-size: 14pt;"><strong>Input: </strong>arr[] = [-7, 1, 5, 2, -4, 3, 0]</span><span style="color: #222222;"><span style="text-wrap-mode: wrap;"><br></span></span><span style="font-size: 14pt;"><strong>Output: </strong>3<strong>
+Explanation: </strong></span><span style="color: #222222;"><span style="font-size: 18.6667px; text-wrap-mode: wrap;">The sum of left of index 3 is -7 + 1 + 5 = -1 and sum on right of index 3 is -4 + 3 + 0 = -1.</span></span></pre>
+
+**Expected Complexities:**
+
+Time Complexity: O(n)  
+Auxiliary Space: O(1)
